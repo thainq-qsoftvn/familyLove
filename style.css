@@ -167,8 +167,9 @@ ul{
 #crumbs a{
     background: #bd0478;
     color: #fff;
-    padding:0 10px;
+    padding:0 10px; 
 }
+
 #crumbs a, #crumbs span, #crumbs .delimiter-breadcrumbs{
     line-height: 29px;
     float: left;
