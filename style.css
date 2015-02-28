@@ -59,7 +59,7 @@ ul{
     border-left: none;
 }
 .content-menu-header li:hover{
-    background: #ae036f;
+    background: #8aaa23;
 }
 .content-menu-header li{
     float: left;
@@ -115,4 +115,68 @@ ul{
     font-weight: bold;
     font-size: 13px;
     color: #777777;
+}
+
+.main-content{
+    margin-top: 20px;
+}
+
+
+#crumbs .delimiter-breadcrumbs{
+    background: url(images/bg-delimiter.png) no-repeat;
+    padding: 0 9px;
+}
+
+#crumbs .delimeter-a{
+    background: url(images/bg-delimer-a.png) no-repeat;
+    padding: 0 8px;
+}
+#crumbs a:first-child{
+    position: relative;
+}
+#crumbs a:first-child:before{
+    content: "";
+    background: url('images/bg-before-a.png') no-repeat;
+    top: 29px;
+    right: 70px;
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 29px;
+}
+#crumbs span.current:after{
+    content: "";
+    background: url(images/bg-scrumb-span-affter.png) no-repeat;
+    top: 0px;
+    right: -20px;
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 29px;
+
+}
+#crumbs span{
+    background: #f1f1f1;
+    color: #747474;
+    padding:0 10px;
+    position: relative;
+}
+#crumbs a:hover{
+    color: #c2e300;
+}
+#crumbs a{
+    background: #bd0478;
+    color: #fff;
+    padding:0 10px;
+}
+#crumbs a, #crumbs span, #crumbs .delimiter-breadcrumbs{
+    line-height: 29px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;    
+}
+.page-breadcrumb{
+    margin-left: -10px;
 }
